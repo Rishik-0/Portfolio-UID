@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Italiana&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+body{
+    background-image: url("./assets/v882-kul-67.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: fit fit-content; 
+    padding: 50px;
+    margin: 0;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.body-div{
+    width: 100%;
+    min-height: 110vh;
+    overflow-y: visible;
+    
+}
+.navbar a{
+    color: white;
+    padding:0 20px 40px 20px;
+    font-family: "Italiana", sans-serif;
+    font-weight: 800;
+    font-size: large;
+    font-style: normal;
+    transition:  0.3s ease;
+    text-decoration: none;
+}
+.navbar{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    gap: 2.5vw;
+    margin: auto;
+    
+}
+@media screen and (max-width:400px) {
+  .navbar{
+    gap: 0.5vw;
+  }
+}
+.navbar a:hover{
+    font-size: larger;
+    text-shadow: 0 0 10px #7ec3cc, 0 0 30px #75ecfc, 0 0 40px #75ecfc, 0 0 40px #75ecfc;
+    cursor: pointer;
+    color: black;
+    
+}
+
+.intro-text{
+    margin: 0 ;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: clamp(3rem, 12vw, 10rem);
+    color: #8dbcc2;
+    /* color: #E0E0E0; */
+    opacity: 90%;
+}
+.intro-subtext{
+  font-family: "Italiana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:clamp(1rem, 5vw, 10rem);
+  color: #8dbcc2a2;
+  /* color: #E0E0E0; */
+  opacity: 90%;
+  margin: 0;
+}
+.intro-text-container{
+    overflow: hidden;
+    margin-top: 10%;
+}
+.intro-text-innercontainer{
+    display: flex;
+    width: max-content; 
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+}
+
+
+
+
+
+
+.card {
+  width: 300px;
+  background-color: #000000; 
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #444;
+  margin-bottom: 30px; 
+  cursor: pointer;
+  opacity: 70%;
+  transition:  transform 0.4s ease;  
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px 1px #8dbcc2a2;
+
+}
+
+
+.card-header h3 {
+  margin: 0;
+  color: #818cf8;
+  padding-bottom: 10px;
+}
+
+.tag {
+  font-size: 12px;
+  background-color: #333;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+
+.card-body p {
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 1px solid #2d484b;
+  padding: 8px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #4cb1bfe3;
+  color: black;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.about-card{
+  width: 90vw;
+  height: fit-content;
+  background-color: #0c0c0c;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #444;
+  margin-bottom: 30px;
+  opacity: 70%;
+  margin-top: 10vh;
+  margin-left: auto;
+  line-height: 1.75;
+  font-size: large;
+  
+}
+
+.contact-card{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  position: relative;
+  height: fit-content;
+  width: fit-content;
+  margin: auto;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #444;
+  margin-bottom: 30px;
+  opacity: 70%;
+  top: 15vh;
+  
+}
+.contactEle :hover{
+  transform: scale(1.05);
+}
+.contact-text{
+
+  font-family: "Italiana", sans-serif;
+  font-weight: 750;
+  font-style: normal;
+  font-size: x-large;
+  padding: 10px;
+}
+.aboutcard-body{
+  text-align: center;
+  font-size:larger ;
+  padding: 10px;
+  font-family: "Italiana", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.eduTimeline-line{
+  height: 70vh;
+  width: 4px;
+  background-color: #333;
+  position: relative;
+  left: 50%;
+  margin-top:10vh ;
+  z-index: -1;
+}
+.educationHeading{
+  margin-top:30vh ;
+  color: #ccc;
+  font-family: "Italiana", sans-serif;
+  font-weight: 750;
+  font-style: normal;
+  text-align: center;
+}
+  
+.timeline-para{
+  color: #818cf8;
+  font-family: "Italiana", sans-serif;
+  font-weight: 750;
+  font-style: normal;
+}
+.timeline-label{
+  color: white;
+  font-size: larger ;
+  font-family: "Italiana", sans-serif;
+  font-weight: 750;
+  font-style: normal;
+}
+.timeline-imgcontainer{
+  padding: 10px;
+  padding-right: 40px;
+  position: relative;
+}
+.timeline-img{
+  height: 100px;
+  
+}
+.timeline-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin:5vh auto;
+  width: fit-content;
+  top: -70vh;
+
+}
+.t-item1{
+  position: relative;
+  left: 4.5vw;
+}
+
+.timeline-content{
+  padding-left: 20px;
+}
+.t-item2{
+  flex-direction: row-reverse;
+  position: relative;
+  left: -7vw;
+}
+.t-content2{
+  position: relative;
+  text-align: right;
+  padding-right:5vw ;
+}
+.timeline-year{
+    color: #ccc;
+ 
+}
+.fadeUp{
+  animation: fadeUp both;
+  animation-timeline: view();
+  animation-range: entry 20% cover 40%;
+}
+
+@keyframes fadeUp{
+  from {
+    opacity: 0;
+    transform: translateY(15px) scale(0.5);
+
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@media screen and (max-width: 1210px){
+  .t-content1{
+    padding-left: 50px;
+  }
+  .t-content2{
+    padding-right: 90px;
+  }
+}
+
+
+
+.github-contact{
+  display: flex;
+  align-items: center;
+}
+.fadeOut{
+  animation: fadeOut both;
+  animation-timeline: view();
+  animation-range: entry 0% cover 100%;
+}
+
+@keyframes fadeOut{
+  0%,75% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    
+  }
+  100%{
+    opacity: 0;
+    transform: translateY(-15px) scale(0.5);
+  }
+}
+
+
+.skillsItem-container{
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0;
+  position: relative;
+
+}
+.skillsScroll-container{
+  display: flex;
+  width: max-content;
+  height: 30vh;
+  gap: 30px;
+  animation: scroll-horizontal 30s linear infinite;
+  
+}
+.skillsScroll-container:hover {
+    animation-play-state: paused;
+}
+.skillItem{
+  color: white;
+   font-family: "Anton", sans-serif;
+    font-weight: 300;
+    font-style:normal;
+    font-size:clamp(1rem, 3vw, 10rem);
+    white-space: nowrap;
+    transition: 0.3s;
+}
+.skillItem:hover {
+  text-shadow: 0 0 10px #7ec3cc, 0 0 10px #75ecfc, 0 0 30px #75ecfc, 0 0 30px #75ecfc;
+    color: black;
+  transform: scale(1.1);
+}
+
+@keyframes scroll-horizontal{
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-50%);
+  }
+}
