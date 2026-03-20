@@ -159,13 +159,12 @@ body{
   height: fit-content;
   background-color: #0c0c0c;
   color: white;
-  padding: 20px;
+  /* padding: 20px; */
   border-radius: 10px;
   border: 1px solid #444;
   margin-bottom: 30px;
   opacity: 70%;
   margin-top: 10vh;
-  margin-left: auto;
   line-height: 1.75;
   font-size: large;
   
