@@ -3,7 +3,7 @@
 A minimalist, high-performance personal portfolio built with modern CSS scroll-driven animations and a glassmorphism aesthetic. This site showcases my journey as a Computer Science Engineering student at Amrita Vishwa Vidyapeetham.
 
 ##  Live Website
-[View Portfolio Here](https://rishik-0.github.io/Porfoliio-UID/docs/) 
+[View Portfolio Here](https://rishik-0.github.io/Portfolio-UID/index.html) 
 
 
 ## 🛠️ Tech Stack
