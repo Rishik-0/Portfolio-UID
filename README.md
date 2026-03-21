@@ -1,6 +1,8 @@
 # Personal Portfolio | Rishik Raj P
 
-A minimalist, high-performance personal portfolio built with modern CSS scroll-driven animations and a glassmorphism aesthetic. This site showcases my journey as a Computer Science Engineering student at Amrita Vishwa Vidyapeetham.
+This project is a personal exploration of modern web design and a functional log of my journey with HTML and CSS. Driven by a passion for clean aesthetics, I’ve focused on creating a seamless user experience through smooth transitions and responsive layouts.
+
+As a work-in-progress, this site is built for continuous iteration. While it evolves alongside my technical skills, it remains a dedicated space for experimenting with new front-end architectures and refined UI patterns
 
 ##  Live Website
 [View Portfolio Here](https://rishik-0.github.io/Portfolio-UID/index.html) 
