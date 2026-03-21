@@ -71,6 +71,20 @@ body{
   opacity: 90%;
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .intro-text {
+        font-size: clamp(4rem, 16vw, 12rem); 
+        text-align: center;
+    }
+    
+    .intro-subtext {
+        font-size: clamp(1.5rem, 8vw, 3rem);
+        margin-bottom: 10px;
+    }
+}
+
+
 .intro-text-container{
     overflow: hidden;
     margin-top: 10%;
@@ -84,17 +98,7 @@ body{
 
 }
 
-@media screen and (max-width: 768px) {
-    .intro-text {
-        font-size: clamp(4rem, 16vw, 12rem); 
-        text-align: center;
-    }
-    
-    .intro-subtext {
-        font-size: clamp(1.5rem, 8vw, 3rem);
-        margin-bottom: 10px;
-    }
-}
+
 
 
 
